@@ -38,9 +38,9 @@ class Video extends React.Component {
     });
   };
 
-  onVideoSelected(video) {
+  onVideoSelect = (video) => {
     this.setState({ selectedVideo: video });
-  }
+  };
   render() {
     return (
       <>
